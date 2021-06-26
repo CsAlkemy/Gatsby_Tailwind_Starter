@@ -2,28 +2,21 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Image from "../images/gatsby-icon.png"
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <>
-      <div className="py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-md space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
-        <img
-          className="block mx-auto h-24 rounded-full sm:mx-0 sm:flex-shrink-0"
-          src={Image}
-          alt="Woman's Face"
-        ></img>
-        <div className="text-center space-y-2 sm:text-left">
-          <div className="space-y-0.5">
-            <p className="text-lg text-black font-semibold">Erin Lindford</p>
-            <p className="text-gray-500 font-medium">Product Engineer</p>
+      <section className="w-11/12 md:w-8/12 mx-auto py-5">
+        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-4 gap-y-2">
+          <div className="col-span-2 bg-white rounded-sm p-3">
+            <h1>Techrev</h1>
           </div>
-          <button className="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">
-            Message
-          </button>
+          <div className="bg-indigo-100 rounded-sm p-3">
+            <h3>SidePannel</h3>
+          </div>
         </div>
-      </div>
+      </section>
     </>
   </Layout>
 )
