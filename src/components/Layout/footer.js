@@ -42,18 +42,18 @@ const footer = () => {
             <h3 className="text-base font-medium md:mt-0 mt-3">ABOUT.</h3>
             <ul className="font-light text-sm">
               <li>
-                <Link to="/webdev">OUR STORY</Link>{" "}
+                <Link to="/">OUR STORY</Link>{" "}
               </li>
-              <Link to="/appdev">
+              <Link to="/">
                 <li>TERMS OF USE</li>
               </Link>
-              <Link to="/seoWork">
+              <Link to="/">
                 <li>PRIVACY POLICY</li>
               </Link>
-              <Link to="/dataAnalysis">
+              <Link to="/">
                 <li>MEMBERSHIPS</li>
               </Link>
-              <Link to="/digital_m">
+              <Link to="/">
                 <li>ADVERTISE</li>
               </Link>
             </ul>
@@ -88,7 +88,7 @@ const footer = () => {
             ❤️
           </span>{" "}
           <span>
-            <Link to="#"> BY TECHREV</Link>
+            <Link to="#"> BY &copy; TECHREV</Link>
           </span>
         </div>
       </div>

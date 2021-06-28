@@ -97,8 +97,9 @@ export default function Example() {
               <div className="flex justify-between items-center  py-6 md:justify-start md:space-x-10">
                 <div className="flex justify-start lg:w-0 lg:flex-1">
                   <Link to="">
-                    <h1 className="text-3xl tracking-wider font-semibold text-white">
-                      TECHREV
+                    <h1 className="text-3xl tracking-wider text-white">
+                      <span className="font-extrabold">TECH</span>
+                      <span className="text-cyan-500 font-light">REV</span>
                     </h1>
                   </Link>
                 </div>
